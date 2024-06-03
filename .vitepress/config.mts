@@ -1,8 +1,11 @@
 import { defineConfig } from 'vitepress'
 
+// @ts-ignore
+const gaTagId = process.env.GA_TAG_ID
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "outagelab",
+  title: "Outagelab",
   description: "Resilience testing made easy",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -24,5 +27,19 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  head: gaTagId || [
+    [
+      'script',
+      { async: '', src: `https://www.googletagmanager.com/gtag/js?id=${gaTagId}` }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${gaTagId}');`
+    ]
+  ]
 })
