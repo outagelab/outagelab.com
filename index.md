@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: Outagelab
-  text: E2E Resilience Testing for All Developers
-  tagline: The Smarter Way to Learn From Outages
+  text: Lightweight E2E Resilience Testing
+  tagline: An interactive playground for revealing and preventing single points of failure
   actions:
     - theme: brand
       text: Markdown Examples

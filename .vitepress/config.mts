@@ -6,7 +6,7 @@ const gaTagId = process.env.GA_TAG_ID
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Outagelab",
-  description: "Resilience testing made easy",
+  description: "Lightweight E2E Resilience Testing",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
