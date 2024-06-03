@@ -28,7 +28,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
-  head: gaTagId || [
+  head: gaTagId ? [
     [
       'script',
       { async: '', src: `https://www.googletagmanager.com/gtag/js?id=${gaTagId}` }
@@ -41,5 +41,5 @@ export default defineConfig({
       gtag('js', new Date());
       gtag('config', '${gaTagId}');`
     ]
-  ]
+  ] : []
 })
