@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: Outagelab
+  name: OutageLab
   text: Lightweight E2E Resilience Testing
-  tagline: An interactive playground for revealing and preventing single points of failure
+  tagline: An interactive playground for finding and fixing single points of failure and broken monitors
   actions:
     - theme: brand
       text: Markdown Examples
