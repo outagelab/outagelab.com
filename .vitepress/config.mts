@@ -10,30 +10,45 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Docs", link: "/markdown-examples" },
-      { text: "Sign In", link: "https://app.outagelab.com" },
+      { text: "Docs", link: "/docs" },
+      { text: "Pricing", link: "/markdown-examples" },
+      {
+        text: "Sign In",
+        link: "https://app.outagelab.com",
+        target: "_self",
+        rel: "sponsored",
+      },
     ],
 
     sidebar: [
       {
         text: "Introduction",
         items: [
-          { text: "What is OutageLab?", link: "/what-is-outagelab" },
-          { text: "Getting Started", link: "/getting-started" },
+          {
+            text: "What is OutageLab?",
+            link: "/docs/introduction/what-is-outagelab",
+          },
+          {
+            text: "Getting Started",
+            link: "/docs/introduction/getting-started",
+          },
         ],
       },
       {
         text: "Features",
-        items: [{ text: "Outage Types", link: "/docs/outage-types" }],
+        items: [{ text: "Outage Types", link: "/docs/features/outage-types" }],
       },
       {
         text: "Reference",
         items: [
           {
-            text: "Client SDK's",
-            link: "/client-sdks",
+            text: "Integration SDK's",
+            link: "/docs/reference/integration-sdks",
             items: [
-              { text: "JavaScript", link: "/javascript-sdk" },
+              {
+                text: "JavaScript",
+                link: "/docs/reference/integration-sdks/javascript",
+              },
               { text: "Golang", link: "/golang-sdk" },
               { text: "Python", link: "/python-sdk" },
               { text: "Ruby", link: "/ruby-sdk" },
