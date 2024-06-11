@@ -4,22 +4,23 @@ layout: home
 
 hero:
   name: OutageLab
-  text: Lightweight E2E Resilience Testing
-  tagline: An interactive playground for finding and fixing single points of failure and unreliable monitors
+  text: |
+    Control Your Outage Experience
+  tagline: Remotely inject application errors in pre-prod to test resilience, observability, and incident response E2E
   actions:
     - theme: brand
       text: Get Started
-      link: /markdown-examples
+      link: /docs/introduction/getting-started
     - theme: alt
       text: Learn More
       link: /api-examples
 
 features:
-  - title: Move fast, break things
+  - title: Move fast and break things
     details: The easiest way to get started with resilience testing. Onboard applications with a simple library install.
-  - title: Controlled chaos
-    details: Minimize impact by scoping outages down to specific services, dependencies, even individual users
-  - title: No limits
+  - title: Chaos leashed
+    details: Avoid disruption with highly targeted outage rules, including scoping to individual users
+  - title: Run anywhere
     details: Works with any kind of application on any kind of infrastructure, even serverless functions or on-prem
   # - title: Feature E
   #   details: Experiment on the fly without changing code or re-deploying anything

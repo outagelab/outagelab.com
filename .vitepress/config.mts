@@ -11,7 +11,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Docs", link: "/docs" },
-      { text: "Pricing", link: "/markdown-examples" },
+      // { text: "Pricing", link: "/markdown-examples" },
       {
         text: "Sign In",
         link: "https://app.outagelab.com",
@@ -32,6 +32,10 @@ export default defineConfig({
             text: "Getting Started",
             link: "/docs/introduction/getting-started",
           },
+          {
+            text: "Ways to Use it",
+            link: "/docs/introduction/ways-to-use-it",
+          },
         ],
       },
       {
@@ -49,10 +53,14 @@ export default defineConfig({
                 text: "JavaScript",
                 link: "/docs/reference/integration-sdks/javascript",
               },
-              { text: "Golang", link: "/golang-sdk" },
-              { text: "Python", link: "/python-sdk" },
-              { text: "Ruby", link: "/ruby-sdk" },
-              { text: "Java", link: "/java-sdk" },
+              {
+                text: "Other Languages",
+                link: "/docs/reference/integration-sdks/other",
+              },
+              // { text: "Golang", link: "/golang-sdk" },
+              // { text: "Python", link: "/python-sdk" },
+              // { text: "Ruby", link: "/ruby-sdk" },
+              // { text: "Java", link: "/java-sdk" },
             ],
           },
         ],
