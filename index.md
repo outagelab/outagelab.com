@@ -23,5 +23,5 @@ features:
   - title: Controlled chaos
     details: Avoid disruption in your test environments with narrowly scoped outage conditions, including filtering to specific users.
   - title: Open and free
-    details: The control service is open source and free to self-host. Or jump start with a free personal account on our managed service.
+    details: Open source and free to self-host. Or jump start with a free personal account on our managed service.
 ---
