@@ -5,7 +5,9 @@ layout: home
 hero:
   name: OutageLab
   text: |
-    Simulate Outages, Validate Impact
+    Simulate Outages,
+    Validate Impact,
+    Build Resilience
   tagline: Remotely inject application errors in pre-prod to test resilience, observability, and incident response E2E
   actions:
     - theme: brand
