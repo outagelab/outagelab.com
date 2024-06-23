@@ -6,14 +6,15 @@ const gaTagId = process.env.GA_TAG_ID;
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "OutageLab",
-  description: "Lightweight E2E Resilience Testing",
+  description: "OutageLab",
+  appearance: "dark",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Docs", link: "/docs" },
       // { text: "Pricing", link: "/markdown-examples" },
       {
-        text: "Sign In",
+        text: "App",
         link: "https://app.outagelab.com",
         target: "_self",
         rel: "sponsored",
@@ -22,18 +23,18 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Introduction",
+        text: "Intro",
         items: [
           {
             text: "What is OutageLab?",
             link: "/docs/introduction/what-is-outagelab",
           },
           {
-            text: "Getting Started",
+            text: "Quickstart",
             link: "/docs/introduction/getting-started",
           },
           {
-            text: "Ways to Use it",
+            text: "Usecases",
             link: "/docs/introduction/ways-to-use-it",
           },
         ],

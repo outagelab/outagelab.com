@@ -5,29 +5,21 @@ layout: home
 hero:
   name: OutageLab
   text: |
-    Control Your Outage Experience
+    Simulate Outages, Validate Impact
   tagline: Remotely inject application errors in pre-prod to test resilience, observability, and incident response E2E
   actions:
     - theme: brand
-      text: Get Started
-      link: /docs/introduction/getting-started
+      text: Learn more
+      link: /docs/introduction/what-is-outagelab
     - theme: alt
-      text: Learn More
-      link: /api-examples
+      text: Quickstart
+      link: /docs/introduction/getting-started
 
 features:
   - title: Move fast and break things
-    details: The easiest way to get started with resilience testing. Onboard applications with a simple library install.
-  - title: Chaos leashed
-    details: Avoid disruption with highly targeted outage rules, including scoping to individual users
-  - title: Run anywhere
-    details: Works with any kind of application on any kind of infrastructure, even serverless functions or on-prem
-  # - title: Feature E
-  #   details: Experiment on the fly without changing code or re-deploying anything
-  # - title: Feature
-  #   details: Save outage scenario profiles and share them with designers and product managers for acceptance testing
-  # - title: Feature C
-  #   details: Quickly demonstrate the impact of single points of failure and generate interest in resilience engineering
-  # - title: Feature D
-  #   details: Validate graceful degradation and mean time to respond
+    details: The fastest way for developers to start chaos testing. Integrates in application code as an installed package.
+  - title: Controlled chaos
+    details: Avoid disruption in your test environments with narrowly scoped outage conditions, including filtering to specific users.
+  - title: Open and free
+    details: The control service is open source and free to self-host. Or jump start with a free personal account on our managed service.
 ---
